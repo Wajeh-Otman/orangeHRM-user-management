@@ -1,0 +1,24 @@
+ID,Title,Preconditions,Steps,Expected Result,Priority,Type
+TC01,Search by Username,Admin is logged in and on the User Management page.,Enter a valid username. Click 'Search'.,Only users with the entered username are displayed.,High,Functional
+TC02,Search by Employee Name,Admin is on the User Management page.,Enter employee name. Click 'Search'.,All users matching the employee name are listed.,High,Functional
+TC03,Search by User Role,Admin is on the User Management page.,Select a role. Click 'Search'.,Users with the selected role are displayed.,High,Functional
+TC04,Search by Status,Admin is on the User Management page.,Select a status. Click 'Search'.,Users matching the selected status are shown.,Medium,Functional
+TC05,Reset Search Filters,Search filters are applied.,Click the 'Reset' button.,All filters are cleared; full user list is restored.,Medium,UI
+TC06,Access Add User Form,Admin is logged in and on the User Management page.,Click the 'Add' button.,The Add User form appears.,High,UI Navigation
+TC07,Required Fields Validation,Admin is on the Add User form.,Leave required fields empty. Click 'Save'.,Validation messages prevent form submission.,High,Negative / Validation
+TC08,Unique Username Validation,A user with the entered username already exists.,Enter duplicate username. Click 'Save'.,Error message indicates username already exists.,High,Negative / Validation
+TC09,Password Strength Validation,Admin is on the Add User form.,Enter a weak password. Click 'Save'.,Error message appears requiring a stronger password.,Medium,Validation
+TC10,Add Valid User,Admin is on the Add User form.,Enter valid data. Click 'Save'.,User is added successfully with a confirmation message.,Critical,Functional
+TC11,Verify Added User Appears,A user was recently added successfully.,View the user list.,Newly added user is visible with accurate data.,High,Functional / Post-Condition
+TC12,Access Edit User Form,At least one user exists in the list.,Click 'Edit' next to a user.,Edit form appears with user data filled in.,High,UI Navigation
+TC13,Verify Pre-filled Data,Admin is on the Edit User form.,Review the form fields.,Fields show current user data.,Medium,Functional / UI
+TC14,Edit with Missing Fields,Admin is on the Edit User form.,Clear required fields. Click 'Save'.,Validation errors are shown; submission is blocked.,High,Negative / Validation
+TC15,Successful Update,Admin is on the Edit User form.,Modify fields with valid data. Click 'Save'.,Changes are saved and a success message is displayed.,Critical,Functional
+TC16,Delete Single User,A user exists in the list.,Select one checkbox. Click 'Delete'. Confirm deletion.,User is removed and confirmation appears.,High,Functional
+TC17,Delete Multiple Users,Multiple users are listed.,Select multiple users. Click 'Delete'. Confirm deletion.,All selected users are removed with confirmation.,High,Functional
+TC18,Deleted Users Not Listed,One or more users were deleted.,Check the user list.,Deleted users are no longer visible.,Medium,Post-Condition
+TC19,Success Message on Valid Action,Admin has completed a valid operation.,Perform a user management action.,A success notification is displayed.,Medium,UI / Feedback
+TC20,Error Message on Invalid Action,Admin performs an invalid action.,Submit invalid data.,A red error message is shown.,High,Negative / Feedback
+TC21,Responsive Layout on All Screens,Admin accesses the app on different screen sizes.,Open User Management on devices.,Layout adjusts properly; all elements are accessible.,Medium,UI / Usability
+TC22,Blocked Submission on Missing Fields,Admin is on Add or Edit form.,Leave required fields empty. Click 'Save'.,Form is not submitted; validation warnings are shown.,High,Negative / Validation
+TC23,Audit Trail Logging,Audit logging is enabled.,Perform a user operation. View audit log.,"Log records the action, timestamp, and admin username.",High,Functional / Security
