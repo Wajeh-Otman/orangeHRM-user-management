@@ -1,5 +1,5 @@
-The prject test users management frature for the admin.
-the project include:
+The project tests the user management feature for the admin.
+The project includes:
   - Functional Requirements Document (FRD) file
   - Software Test Plan (STP) file
   - Software Test Design (STD) file
