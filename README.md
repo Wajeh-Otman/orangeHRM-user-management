@@ -1,4 +1,4 @@
-The project tests the user management feature for the admin.
+The project tests the user management feature for the admin in orangeHRM (https://opensource-demo.orangehrmlive.com/web/index.php/auth/login).
 The project includes:
   - Functional Requirements Document (FRD) file
   - Software Test Plan (STP) file
