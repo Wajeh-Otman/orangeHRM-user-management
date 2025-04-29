@@ -33,7 +33,7 @@ with sync_playwright() as p:
 
 
 #######  SEARCH FOR USER  ######
-    #      why //input[@fdprocessedid="6wbfq"] in no good
+    
     page.locator("//label[text()='Username']/following::input[1]").fill("john john")
     page.wait_for_selector('//button[@type="submit"]').click()
     page.wait_for_timeout(3000)
