@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50218c83-4a06-4c44-a3df-eae81420cd35" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/QA_testing.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/QA_testing.py" afterDir="false" />
+    <list default="true" id="50218c83-4a06-4c44-a3df-eae81420cd35" name="Changes" comment="add files">
+      <change afterPath="$PROJECT_DIR$/pages/add_User.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/logIn.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/init.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +51,7 @@
   "keyToString": {
     "Python tests.Python tests for test_square.test_sqrt.executor": "Run",
     "Python.QA_testing.executor": "Run",
+    "Python.init.executor": "Run",
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -59,7 +64,7 @@
       <recent name="C:\Users\wajeh otman\PycharmProjects\orangeHRM\pages" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.QA_testing">
+  <component name="RunManager" selected="Python.init">
     <configuration name="QA_testing" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="orangeHRM" />
       <option name="ENV_FILES" value="" />
@@ -74,6 +79,28 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="C:\Users\wajeh otman\PycharmProjects\orangeHRM\pages\QA_testing.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="init" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="orangeHRM" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/utils" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/utils/init.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -99,6 +126,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.init" />
         <item itemvalue="Python.QA_testing" />
         <item itemvalue="Python tests.Python tests for test_square.test_sqrt" />
       </list>
@@ -120,6 +148,19 @@
       <option name="presentableId" value="Default" />
       <updated>1745420582900</updated>
     </task>
+    <task id="LOCAL-00001" summary="add files">
+      <option name="closed" value="true" />
+      <created>1746106958071</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1746106958071</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add files" />
+    <option name="LAST_COMMIT_MESSAGE" value="add files" />
   </component>
 </project>
