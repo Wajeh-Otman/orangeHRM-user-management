@@ -1,5 +1,5 @@
 
-class LoginPage:
+class Login:
 
     def __init__(self):
         # Locators

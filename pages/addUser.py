@@ -1,4 +1,4 @@
-class addUserPage:
+class addUser:
 
     def __init__(self):
         # Locators
