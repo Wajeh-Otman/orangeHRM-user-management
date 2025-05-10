@@ -24,18 +24,20 @@ if __name__ == '__main__':
     admin_Page = adminMainPage.adminPage()
     edit_user = editUser.editUser()
     del_user = deleteUserPage.deleteUser()
+
+
     login_page.login(page)
     page.wait_for_timeout(3000)
 
-    # addUserPage.addUser(page)
-    #
-    # admin_Page.searchByUsername(page)
-    # admin_Page.searchByUserRole(page)
-    # admin_Page.searchByEmpName(page)
-    # admin_Page.searchByStatus(page)
-    #
-    # edit_user.selectUser(page)
-    # edit_user.editUser(page)
-    #
+    addUserPage.addUser(page)
+
+    admin_Page.searchByUsername(page)
+    admin_Page.searchByUserRole(page)
+    admin_Page.searchByEmpName(page)
+    admin_Page.searchByStatus(page)
+
+    edit_user.selectUser(page)
+    edit_user.editUser(page)
+
     del_user.deleteSingleUser(page)
-    # del_user.deleteMultiUsers(page)
+    del_user.deleteMultiUsers(page)
