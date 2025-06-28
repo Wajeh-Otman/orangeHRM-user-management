@@ -6,4 +6,4 @@ The project includes:
   - Software Test Plan (STP) file
   - Software Test Design (STD) file
   - Software Test Report (STR) file
-  - Python project for QA testing using PLAYWRIGHT
+  - Python-based QA automation project using PLAYWRIGHT
