@@ -1,6 +1,8 @@
+
+"""
 from playwright.sync_api import sync_playwright
 from pages import addUser
-from pages import logIn
+from pages import login_page
 from pages import adminMainPage
 from pages import editUser
 from pages import deleteUserPage
@@ -19,7 +21,7 @@ def init_browser(url):
 
 if __name__ == '__main__':
     page = init_browser('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
-    login_page = logIn.Login()
+    login_page = LoginPage.Login()
     addUserPage = addUser.addUser()
     admin_Page = adminMainPage.adminPage()
     edit_user = editUser.editUser()
@@ -41,3 +43,4 @@ if __name__ == '__main__':
 
     del_user.deleteSingleUser(page)
     del_user.deleteMultiUsers(page)
+"""
