@@ -5,18 +5,6 @@ class LoginPage:
 
     def __init__(self, page: Page):
         self.page = page
-    """
-        # Locators
-        self.user_name = "Admin"
-        self.password = "admin123"
-        self.selectors = {
-            "username_locator": '//input[@name="username"]',
-            "password_locator": '//input[@name="password"]',
-            "loginBtn": '//button[@type="submit"]',
-            "adminIcon": '//a[@href="/web/index.php/admin/viewAdminModule"]'
-        }
-"""
-
 
     def enter_username(self, username):
         self.page.locator("input[name='username']").fill(username)
